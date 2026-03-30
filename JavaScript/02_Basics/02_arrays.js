@@ -10,4 +10,9 @@ const nits = ["NIT Warangal", "NIT Trichy", "NIT Allahbad"]
 
 const colleges = iits.concat(nits) // it merge all elements in both arrays and return a new array.
 
-console.log(colleges);
+// console.log(colleges);
+
+// If there are more than two arrays then we use the concept of spread.
+
+const new_array = [...iits, ...nits, ...colleges] // we can use wanted number of arrays to merge
+console.log(new_array);
