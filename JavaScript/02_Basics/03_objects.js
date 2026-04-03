@@ -43,3 +43,9 @@ const newUser = {
 
 user.Branch = "Ece"
 console.log(user["Branch"]);
+
+// if we want to make object unchangable 
+
+Object.freeze(user)
+user.Branch = "Civil"
+console.log(user["Branch"]);
