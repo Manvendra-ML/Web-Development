@@ -1,5 +1,3 @@
-// 
-
 // literals objects
 
 const user = {
