@@ -15,5 +15,11 @@ const num = [1,2,3,4,5,6,7,8,9,10]
 
 let newnum = num.filter((n)=> n>4 ) // this method filter the data according to giving condition.
 
-console.log(newnum); 
+// console.log(newnum); 
 
+////////////////////////////////////// 2. Map() ////////////////////////////////////////////////////////
+
+const new_num = [1,2,3,4,5,6,7,8,9,10]
+
+let new_arr = new_num.map((n)=> n /2)
+console.log(new_arr)
